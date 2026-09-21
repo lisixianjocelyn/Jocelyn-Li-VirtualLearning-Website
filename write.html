@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Write an entry</title>
+<meta name="description" content="Turn your answers into a journal entry for the site.">
+<meta name="theme-color" content="#12343B">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400..800;1,7..72,400..700&amp;display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="index.html" data-site="name">[Your preferred name]</a>
+    <nav aria-label="Main"><a href="journal.html">Journal</a><a href="course-log.html">Course log</a><a href="evidence.html">Evidence</a><a href="bio.html">Learner bio</a></nav>
+  </div>
+</header>
+<main id="main" class="wrap">
+
+<section class="page-head">
+  <h1>Write an entry</h1>
+  <p class="lede">Answer the four questions. This page doesn't save to your site. It turns your answers into code you paste in yourself.</p>
+</section>
+
+<section aria-label="Entry form">
+  <form id="entry-form" novalidate>
+    <div class="row">
+      <div class="field"><label for="week">Week</label><input id="week" type="number" min="1" inputmode="numeric"></div>
+      <div class="field"><label for="date">Date</label><input id="date" type="date"></div>
+    </div>
+    <div class="field"><label for="course">Course</label><input id="course" type="text" autocomplete="off"></div>
+
+    <div class="field">
+      <label for="worked">1. What did I work on today?</label>
+      <p class="hint">The specific module, topic or section. Names and numbers beat "some of the course".</p>
+      <textarea id="worked"></textarea>
+    </div>
+    <div class="field">
+      <label for="challenge">2. What was challenging, and how did I handle it?</label>
+      <p class="hint">What exactly was hard, and what did you actually do about it?</p>
+      <textarea id="challenge"></textarea>
+    </div>
+    <div class="field">
+      <label for="score">3. How well did I run my own learning today?</label>
+      <p class="hint">Pick the band that fits, then say honestly why. Compare it with your ManageBac score later in the week.</p>
+      <select id="score">
+        <option value="100">100 Directing my own learning</option>
+        <option value="89">89 Managing my own learning</option>
+        <option value="79">79 Working within structure</option>
+        <option value="69">69 Not yet self-directing</option>
+      </select>
+      <p class="hint" style="margin-top:.75rem"><label for="scoreWhy" style="display:inline;font-weight:400">Why this score?</label></p>
+      <textarea id="scoreWhy"></textarea>
+    </div>
+    <div class="field">
+      <label for="next">4. What will I do differently or keep doing next session?</label>
+      <p class="hint">One concrete plan you could actually follow. "Try harder" doesn't count.</p>
+      <textarea id="next"></textarea>
+    </div>
+    <div class="field">
+      <label for="extraQ">Optional extra question</label>
+      <select id="extraQ">
+        <option value="">None</option>
+        <option>What surprised me this week?</option>
+        <option>What distracted me most today, and what would remove it?</option>
+        <option>Is this course still the right fit? Why or why not?</option>
+        <option>How does this connect to what I want to study at university?</option>
+      </select>
+      <textarea id="extraA" aria-label="Answer to the optional question" style="margin-top:.6rem;min-height:4.5rem"></textarea>
+    </div>
+
+    <div class="actions">
+      <button class="btn" type="submit">Make entry</button>
+      <button class="btn quiet" type="button" id="clear">Clear form</button>
+    </div>
+    <p class="msg" id="msg" role="status" aria-live="polite"></p>
+  </form>
+</section>
+
+<section class="section" id="result" hidden aria-labelledby="result-h">
+  <h2 id="result-h">Your entry is ready</h2>
+  <ol class="steps">
+    <li>Copy the site code and paste it between the square brackets in <strong>data/entries.js</strong>. Put it inside the list, before the closing <code>];</code>.</li>
+    <li>Commit the change to GitLab. The pipeline runs and the live site updates in a minute or two.</li>
+    <li>Copy the backup text into your journal backup document, so your work survives if the site doesn't.</li>
+  </ol>
+  <h3>Site code</h3>
+  <pre class="out" id="code-out" tabindex="0"></pre>
+  <button class="btn" type="button" id="copy-code">Copy site code</button>
+  <h3 style="margin-top:2rem">Backup text</h3>
+  <pre class="out" id="backup-out" tabindex="0"></pre>
+  <button class="btn quiet" type="button" id="copy-backup">Copy backup text</button>
+</section>
+
+</main>
+<footer class="wrap foot">
+  <p>Virtual Learning &amp; Development, 2026&ndash;27. Written by <span data-site="name">[Your preferred name]</span>.</p>
+  <p><a href="write.html">Write a new entry</a></p>
+</footer>
+<script src="data/site.js"></script>
+<script src="js/write.js"></script>
+</body>
+</html>
