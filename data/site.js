@@ -1,6 +1,6 @@
 window.VLD_SITE = {
-    name: "[Your preferred name]",
-    grade: "[Your grade]",
+    name: "Jocelyn Li",
+    grade: "G12",
   
     // The week strip on the home page runs from startDate to endDate.
     // Use a Monday for startDate so each square is one Monday-to-Sunday week.
@@ -11,7 +11,7 @@ window.VLD_SITE = {
     // one's status to "Switched" and explain why in switchReason.
     courses: [
       {
-        name: "[Course name]",
+        name: "ESAT Prep",
         url: "",                       // link to the course, if it has one
         status: "Current",             // "Current", "Finished" or "Switched"
         reason: "[One honest sentence on why you picked it.]",
