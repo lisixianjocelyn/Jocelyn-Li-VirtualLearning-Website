@@ -1,5 +1,14 @@
 window.VLD_ENTRIES = [
     {
+      "week": 5,
+      "date": "2026-09-29",
+      "worked": "I take a little day off for ESAT today, and practice some SAT questions instead to prepare for the upcoming test this Saturday. I worked on some vocab, a little main idea questions, and mostly transition questions",
+      "challenge": "Sometimes I get transition questions wrong mainly because I didn’t read the entire passage to totally understand what’s happening. Therefore, it is important to remind myself to do so. Also for the vocab, some words are just very random and hard to memorize. However, I think I can work on that by keeping practicing and establishing my own story telling to help me recognize them when they appear.",
+      "score": 100,
+      "scoreWhy": "I was also very locked in for this session and there is evidence. After about 10 minutes of vocab practice on Quizlet, I went up to the Collegeboard Student Question Bank and just kept practicing questions.",
+      "next": "For the next session, I will change back to ESAT preparation after the SAT test, and maybe focusing on some physics problems."
+    },
+    {
       "week": 4,
       "date": "2026-09-22",
       "worked": "I took another practice test with about the same time period as one section of math on the ESAT.",
