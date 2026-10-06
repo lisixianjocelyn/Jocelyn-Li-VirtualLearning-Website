@@ -1,5 +1,14 @@
 window.VLD_ENTRIES = [
     {
+      "week": 6,
+      "date": "2026-10-06",
+      "worked": "I take another practice test with about the same time period as one section of math on the ESAT.",
+      "challenge": "I first focus on the question I have on previous practice, and then try doing again with my mind speed-run the calculation and questions. I found out that it is very important to just get things right because I found out that’s how I lost time, mainly redoing the question because of small mistakes.",
+      "score": 100,
+      "scoreWhy": "I was also very locked in for this session and there is evidence. Since this time my mock testing is timed for 40 minutes, I have almost no time wandering around but just stuck at solving problems, and I didn’t even finish the 40 minutes because I spent some time on the previous test paper.",
+      "next": "For the next session, I am going to work on my physics too, a bit cooked."
+    },
+    {
       "week": 5,
       "date": "2026-09-29",
       "worked": "I take a little day off for ESAT today, and practice some SAT questions instead to prepare for the upcoming test this Saturday. I worked on some vocab, a little main idea questions, and mostly transition questions",
