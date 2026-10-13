@@ -1,5 +1,14 @@
 window.VLD_ENTRIES = [
     {
+      "week": 7,
+      "date": "2026-10-13",
+      "worked": "I have discovered a ESAT online practice website recently, and I took some mock exam yesterday, so today I am reviewing the wrong questions and redoing those I get wrong again.",
+      "challenge": "The problem of the website is extremely hard and I have thought that I might fail the test, but I think what I should do is to correct my mistakes from now on and do all my best.",
+      "score": 100,
+      "scoreWhy": "I was very locked in and there is evidence. Nearly all the time I am doing the Mathematics 1 problem correction, and I only went to check my college applications stuff when I am about to end and write the reflection.",
+      "next": "For the next session, my ESAT will be over! So I might find some new things to learn, probably for some passion project I believe."
+    },
+    {
       "week": 6,
       "date": "2026-10-06",
       "worked": "I take another practice test with about the same time period as one section of math on the ESAT.",
