@@ -2,7 +2,7 @@ window.VLD_ENTRIES = [
     {
       "week": 10,
       "date": "2026-11-03",
-      "worked": "Congratulations on finishing the ESAT! I have done my best to prepare for the test, and I think I have done well on it. I will wait for the result to see how I did. I used this week to reserach for a new project and course I want to learn of, and the solution is to start working on learning about how to build a drone and all relevent testing techinques including 3D prototype sketching and the wind tunnel experiments!",
+      "worked": "Congratulations on finishing the ESAT! I have done my best to prepare for the test, and I think I have done well on it. I will wait for the result to see how I did. I used this week to research for a new project and course I want to learn of, and the solution is to start working on learning about how to build a drone and all relevant testing techniques including 3D prototype sketching and the wind tunnel experiments!",
       "challenge": "Building a drone isn't easy as it obviously requires a lot of knowledge and skills, and I have to learn a lot of things from scratch. I will need to learn about the physics of flight, aerodynamics, and the mechanics of drones. I will also need to learn about the electronics and programming involved in building a drone. A long path waiting for me!",
       "score": 100,
       "scoreWhy": "I was very locked in and there is evidence. I've spent a lot of time researching and learning about drones, and I have made significant progress in understanding the concepts and techniques involved in building one.",
