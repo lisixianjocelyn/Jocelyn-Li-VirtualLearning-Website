@@ -1,5 +1,14 @@
 window.VLD_ENTRIES = [
     {
+      "week": 11,
+      "date": "2026-11-10",
+      "worked": "Organized my past learning reflections and updated my website as part of my mid-process review.",
+      "challenge": "Sorting through scattered notes, and deciding how to structure the site in the proper order to make all the process clear for both the teacher and myself. I eventually prioritized the most recent one to make sure I can reflect on what I did last week when working.",
+      "score": 100,
+      "scoreWhy": "100, I was very locked in this week. Although I feel a bit sick, I did try my best to focus on my task.",
+      "next": "Start building my drone project, make progress!"
+    },
+    {
       "week": 10,
       "date": "2026-11-03",
       "worked": "Congratulations on finishing the ESAT! I have done my best to prepare for the test, and I think I have done well on it. I will wait for the result to see how I did. I used this week to research for a new project and course I want to learn of, and the solution is to start working on learning about how to build a drone and all relevant testing techniques including 3D prototype sketching and the wind tunnel experiments!",
