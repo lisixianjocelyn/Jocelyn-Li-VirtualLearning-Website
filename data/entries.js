@@ -1,11 +1,20 @@
 window.VLD_ENTRIES = [
     {
+      "week": 12,
+      "date": "2026-11-24",
+      "worked": "Finding website and video teaching how to build drone from scratch as a beginner, also finding information from the website and video about the materials I will require, and search them online on aliexpress and amazon.",
+      "challenge": "First of all, it is very hard to make sure to cover all the material I need because I never done such projects before about building drone so I literally know nothing about all the motors, lithium batteries, the advance wiring and soldering, and all the receiving and signal shooting machine and board, so when choosing the material, it take a hard time for me to find each one, and which version or specific number to brought, so I really did a lot of research and comparing with the one demonstrating in the tutorial video.",
+      "score": 100,
+      "scoreWhy": "I was very locked in this week. The video is long, and I spend a lot of time researching the material and try to understand the step and the technique the youtuber was doing",
+      "next": "I will try to order all my materials finished before next week and especially using the black friday sale, but there are still some parts I cannot buy because of shipping issues, so I will try to overcome them. For the next session I will check on the specific technique I will need to learn about soldering because I find out that it is actually very different from what I do to connect between wires, this time it is connected onto the board so it is another kind of level"
+    },
+    {
       "week": 11,
       "date": "2026-11-10",
       "worked": "Organized my past learning reflections and updated my website as part of my mid-process review.",
       "challenge": "Sorting through scattered notes, and deciding how to structure the site in the proper order to make all the process clear for both the teacher and myself. I eventually prioritized the most recent one to make sure I can reflect on what I did last week when working.",
       "score": 100,
-      "scoreWhy": "100, I was very locked in this week. Although I feel a bit sick, I did try my best to focus on my task.",
+      "scoreWhy": "I was very locked in this week. Although I feel a bit sick, I did try my best to focus on my task.",
       "next": "Start building my drone project, make progress!"
     },
     {
